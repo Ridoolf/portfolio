@@ -1,0 +1,25 @@
+#layout_container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    background: linear-gradient(294deg, rgba(63,8,66,1) 0%, rgba(2,6,43,1) 100%);
+    font-family: 'Roboto';
+}
+
+::-webkit-scrollbar {
+    width: 1px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #30083D;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #fafafa48;
+    border-radius: 10px; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #c5c1c1;
+} 

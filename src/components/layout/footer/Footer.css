@@ -1,0 +1,27 @@
+.footer_container{
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    
+    a{
+        color: #fafafa;
+        transition: .2s ease-in-out;
+    }
+
+    a:hover{
+        color: #c5c1c1;
+    }
+
+    .contact_footer a > *{
+        font-size: 4rem;
+        margin: 0 .2em;
+        padding: .1em;
+    }
+
+    .copy{
+        margin-top: 10px;
+        font-size: .9rem;
+    }
+}

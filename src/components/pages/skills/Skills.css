@@ -1,0 +1,97 @@
+.main_skills_container{
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    h3{
+        margin: 3em 0 2em 0;
+        font-size: 1.6rem;
+    }
+
+    .skills_container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2em 6em;
+
+        .skill_container{
+            display: flex;
+            flex-direction: column;
+            gap: .5em;
+            padding: 1em;
+            transition: all .3s ease-in-out;
+
+            .line{
+                transform: translateY(0);
+                border: 1px solid #fafafa;
+                transition: all .2s ease-in-out;
+            }
+
+            h4{
+                transition: all .2s ease-in-out;
+            }
+        }
+    }
+
+    .skill_container:hover{
+        background-color: #fafafa1c;
+    }
+
+    .skill_container:hover .line{
+        transform: translateY(1.6em);
+    }
+
+    .skill_container:hover h4{
+        transform: translateY(-10px);
+    }
+
+    .certificates_container{
+        .certificate_container{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 2em;
+            margin-bottom: 1.2em;
+            padding: 1.5em;
+            border-bottom: 1px solid #fafafa;
+            transition: .2s ease-in-out;
+            min-width: 65vw;
+
+            .certificate_item{
+                font-size: 1.2rem;
+            }
+        }
+
+        .certificate_container:hover{
+            background-color: #fafafa1c;
+        }
+    }
+}
+
+@media (max-width: 1024px){
+    .main_skills_container{
+        .skills_container{
+            gap: 2em 4em;
+        }
+
+        .certificates_container{
+            .certificate_item{
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .main_skills_container{
+        .certificates_container{
+            .certificate_item{
+                font-size: 1rem;
+            }
+
+            .p{
+                display: none;
+            }
+        }
+    }
+}

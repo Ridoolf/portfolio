@@ -1,0 +1,26 @@
+a{
+    text-decoration: none;
+
+    button{
+        cursor: pointer;
+        border: 1px solid #fafafa;
+        color: #fafafa;
+        background: none;
+        background-color: none;
+        padding: 10px 12px;
+        border-radius: 20px;
+        transition: .2s ease-in-out;
+        font-weight: bold;
+        display: flex;
+        gap: 2px;
+        align-items: center;
+
+        .downloadIcon{
+            font-size: 20px;
+        }
+    }
+    button:hover{
+        background-color: #fafafa;
+        color: #0a0a0a;
+    }
+}
