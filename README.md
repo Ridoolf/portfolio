@@ -4,13 +4,21 @@ Este es el código fuente de mi portfolio personal, donde presento mis proyectos
 
 ## Tecnologías utilizadas
 
-### React: Framework de JavaScript para construir interfaces de usuario.
+### React:
 
-### CSS: Para el diseño y estilo de los componentes.
+Framework de JavaScript para construir interfaces de usuario.
 
-### JavaScript: Lenguaje de programación principal utilizado en el proyecto.
+### CSS:
 
-### MUI (Material-UI): Biblioteca de componentes de React para interfaces modernas y accesibles.
+Para el diseño y estilo de los componentes.
+
+### JavaScript:
+
+Lenguaje de programación principal utilizado en el proyecto.
+
+### MUI (Material-UI):
+
+Biblioteca de componentes de React para interfaces modernas y accesibles.
 
 ## Secciones del Portfolio
 
@@ -22,11 +30,13 @@ En esta sección se presenta una breve descripción sobre quién soy como desarr
 
 Aquí se pueden ver los proyectos más importantes que he desarrollado. Cada proyecto incluye:
 
+```
 Título
 Descripción
 Tecnologías utilizadas
 Enlace al repositorio en GitHub
-Enlace al proyecto en producción (si aplica)
+Enlace al proyecto en producción
+```
 
 ### 3. Skills
 
