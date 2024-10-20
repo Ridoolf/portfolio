@@ -44,7 +44,6 @@
     .skill_container:hover h4{
         transform: translateY(-10px);
     }
-
     .certificates_container{
         .certificate_container{
             display: flex;
@@ -59,6 +58,11 @@
 
             .certificate_item{
                 font-size: 1.2rem;
+            }
+
+            .title{
+                min-width: fit-content;
+                width: 15%;
             }
         }
 
@@ -78,6 +82,7 @@
             .certificate_item{
                 font-size: 1.1rem;
             }
+
         }
     }
 }

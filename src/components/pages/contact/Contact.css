@@ -1,0 +1,9 @@
+.toastify-custom {
+    background-color: #0a0a0a8e; 
+    color: #fafafa; 
+}
+
+.toastify-custom-error {
+    background-color: #f44336; 
+    color: #ffffff;
+}

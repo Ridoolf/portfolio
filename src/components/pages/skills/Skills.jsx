@@ -75,7 +75,7 @@ export const Skills = () => {
         {certificatesList.map(
           ({ certificateTitle, academy, certificateImg, downloadTitle }) => (
             <div className="certificate_container">
-              <h4 className="certificate_item">{certificateTitle}</h4>
+              <h4 className="certificate_item title">{certificateTitle}</h4>
               <p className="certificate_item p">from {academy}</p>
               <BtnDownload
                 className="certificate_item"

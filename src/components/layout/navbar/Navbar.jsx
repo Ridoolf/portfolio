@@ -43,7 +43,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to={"/about"} onClick={closeMenu}>
+          <Link to={"/contact"} onClick={closeMenu}>
             Contact
           </Link>
         </li>
