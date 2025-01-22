@@ -11,7 +11,7 @@ export const Footer = () => {
           <GitHubIcon />
         </a>
         <a
-          href="https://www.linkedin.com/in/lucas-ridolfi-90467b225/"
+          href="https://www.linkedin.com/in/lucasridolfi"
           target="_blank"
         >
           <LinkedInIcon />
