@@ -34,7 +34,7 @@ export const Contact = () => {
           draggable: true,
           progress: undefined,
         });
-        resetForm(); // Asegúrate de que se llame a resetForm aquí
+        resetForm();
       })
       .catch((err) => {
         console.log("Email Error: ", err.text);

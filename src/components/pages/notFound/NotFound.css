@@ -1,0 +1,13 @@
+.notFound_container {
+    display: flex;
+    justify-content: center;
+
+    h3 {
+        font-size: 4rem;
+        color: #fafafa;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        padding: 14px;
+        transition: .2s ease-in-out;
+    }
+}

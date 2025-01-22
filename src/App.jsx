@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Layout } from "./components/layout/Layout";
 import { menuRoutes } from "./components/routes/menuRoutes.js";
+import { NotFound } from "./components/pages/notFound/NotFound";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
           {menuRoutes.map(({ id, path, Element }) => (
             <Route key={id} path={path} element={<Element />} />
           ))}
-          <Route path="*" element={<h1>404 NOT FOUND</h1>} />
+          <Route path="*" element={<NotFound/>
+          } />
         </Route>
       </Routes>
     </BrowserRouter>
